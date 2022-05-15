@@ -1,10 +1,10 @@
 {
-    "name": "Marvel_universe",
+    "name": "marvel-universe",
     "version": "1.0.0",
     "description": "application build using Marvel API",
     "main": "script.js",
     "scripts": {
-        "test": "node script.js"
+        "start": "node script.js"
     },
     "keywords": [
         "Marvel",
