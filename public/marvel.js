@@ -6,6 +6,7 @@ form.addEventListener("submit", (e) => {
 });
 //send request to server to fetch character info then populate dom
 async function fetchCharacter(input) {
+    document.querySelector(".center").classList.add("loader");
     const url1 = `/fetchMarvelCharInfo/${input}`;
     let response = await fetch(url1);
     let data1 = await response.json();
